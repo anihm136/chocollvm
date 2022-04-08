@@ -1,0 +1,3 @@
+not "Bad"
+-True
+-None
