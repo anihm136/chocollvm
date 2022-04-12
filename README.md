@@ -56,5 +56,5 @@ Some useful commands are -
 - `python main.py --test`: Run the test suite
 
 ### A diagrammatic overview of chocollvm
-Please refer to the video resources provided *here* for a comprehensive explanation.
+Please refer to the video resources [provided](https://drive.google.com/drive/folders/1Xc3tFMkWHIvOepwZyWj1mSYqwy-0RLWg?usp=sharing) for a comprehensive explanation.
 ![chocollvm](chocollvm.png)

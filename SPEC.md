@@ -141,5 +141,5 @@ The types `int`, `str` and `bool` are predefined, and may be used in any ChocoPy
 
 ## The chocollvm AST syntax
 Here is a diagrammatic representation of the nodes of the chocollvm ast.
-Please refer to the video resources provided *here* for a comprehensive explanation of the chocollvm ast.
+Please refer to the video resources [provided](https://drive.google.com/drive/folders/1Xc3tFMkWHIvOepwZyWj1mSYqwy-0RLWg?usp=sharing) for a comprehensive explanation of the chocollvm ast.
 ![AST](AstNodes.png)

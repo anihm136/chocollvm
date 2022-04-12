@@ -48,7 +48,7 @@ while cond:
 	stmts
 ```
 `cond` is an expression that evaluates to a boolean value.
-Please refer to the video resources provided *here* for the implementation guide.
+Please refer to the video resources [provided](https://drive.google.com/drive/folders/1Xc3tFMkWHIvOepwZyWj1mSYqwy-0RLWg?usp=sharing) for the implementation guide.
 
 ## Approach and tips
 - When implementing code generation for a specific feature, start by writing a simple ChocoPy program that uses that feature (and ideally, does not use any other unimplemented feature)
