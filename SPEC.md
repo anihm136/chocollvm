@@ -138,3 +138,8 @@ In functions or methods that declare a return type of `int`, `str`, or `bool`, a
 
 ## Predefined types and functions
 The types `int`, `str` and `bool` are predefined, and may be used in any ChocoPy program. In addition, a rudimentary `printf` function has been provided to display values and verify program execution. This version of `printf` is highly limited - it takes exactly two arguments, the first being a format string and the second, a value to replace the placeholder in the format string. The placeholder `%d` can be used for integers and booleans, while `%s` must be used for strings. Note that exactly two arguments must be provided. The compiler will raise errors if more or less arguments are provided. This means that a format string will have exactly one placeholder per function call
+
+## The chocollvm AST syntax
+Here is a diagrammatic representation of the nodes of the chocollvm ast.
+Please refer to the video resources provided *here* for a comprehensive explanation of the chocollvm ast.
+![AST](AstNodes.png)

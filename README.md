@@ -54,3 +54,7 @@ Some useful commands are -
 - `python main.py --mode tc <input>`: Generates the typechecked AST for a ChocoPy program. This helps in understanding the structure to traverse for generating LLVM IR code, and the types of various entities in a program
 - `python main.py --mode llvm <input> | lli`: Generate LLVM IR code for a program and execute it
 - `python main.py --test`: Run the test suite
+
+### A diagrammatic overview of chocollvm
+Please refer to the video resources provided *here* for a comprehensive explanation.
+![chocollvm](chocollvm.png)

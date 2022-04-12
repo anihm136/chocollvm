@@ -32,13 +32,6 @@ else:
 		stmts
 ```
 Hence, you may not have to explicitly handle code generation for the `elif` statement.
-### WhileStmt
-A `while` loop is of the form
-```
-while cond:
-	stmts
-```
-`cond` is an expression that evaluates to a boolean value.
 ### BinaryExpr
 A binary expression is an expression containing two operands and an associated operator. Binary expressions may be arithmetic, logical or relational, and may take integers or booleans as arguments.
 ### IfExpr
@@ -47,6 +40,15 @@ An `if` expression is an expression of the form `a if cond else b`
 _Note_: An `if` expression is different from an `if` statement. The `if` expression evaluates to a single value, which is determined by the condition `cond`
 ### Identifier
 An identifier is a name that identifies an entity in the program. An entity may either be a variable or a function
+
+### Implementation guide - WhileStmt
+A `while` loop is of the form
+```
+while cond:
+	stmts
+```
+`cond` is an expression that evaluates to a boolean value.
+Please refer to the video resources provided *here* for the implementation guide.
 
 ## Approach and tips
 - When implementing code generation for a specific feature, start by writing a simple ChocoPy program that uses that feature (and ideally, does not use any other unimplemented feature)
