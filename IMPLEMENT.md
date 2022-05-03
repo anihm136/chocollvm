@@ -38,6 +38,14 @@ A binary expression is an expression containing two operands and an associated o
 An `if` expression is an expression of the form `a if cond else b`
 
 _Note_: An `if` expression is different from an `if` statement. The `if` expression evaluates to a single value, which is determined by the condition `cond`
+
+_Hint_: You will need to use a `phi` node to implement this construct. The basic approach is -
+1. Create a `phi` node
+2. Compute the `if` and `else` expressions in a similar way to the `IfStmt`
+3. Add two incoming branches to the `phi` node with the `if` and `else` values
+4. Return the `phi` node
+
+Refer to the llvmlite documentation for more details on how to implement this in code
 ### Identifier
 An identifier is a name that identifies an entity in the program. An entity may either be a variable or a function
 
